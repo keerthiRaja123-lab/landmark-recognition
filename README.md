@@ -1,18 +1,20 @@
-\# Landmark Recognition System
+\#  Landmark Recognition System
 
 
 
-\## Overview
+\##  Overview
 
-This project implements a landmark recognition system using deep learning techniques. It identifies famous landmarks from images.
+This project implements a deep learning-based landmark recognition system using Transfer Learning (MobileNetV2).  
+
+It classifies images of famous landmarks with high accuracy.
 
 
 
-\## Dataset
 
-Images were collected using web scraping (Bing Image Crawler).  
 
-Landmarks used:
+
+
+\##  Landmarks Used
 
 \- Taj Mahal
 
@@ -24,47 +26,61 @@ Landmarks used:
 
 
 
-\## Methodology
+
+
+
+
+\##  Technologies Used
+
+\- Python 3.10
+
+\- TensorFlow / Keras
+
+\- OpenCV
+
+\- NumPy
+
+\- Scikit-learn
+
+
+
+
+
+
+
+\##  Methodology
+
+\- Image collection using web scraping (Bing Image Crawler)
+
+\- Preprocessing (Resizing, Normalization)
 
 \- Transfer Learning using MobileNetV2
-
-\- Image preprocessing (resize, normalization)
 
 \- Classification using Softmax layer
 
 
 
-\## Model Details
 
-\- Input size: 128x128
-
-\- Pretrained model: MobileNetV2
-
-\- Training epochs: 5
 
 
 
 \## Results
 
-\- Accuracy achieved: \~96.7%
+\- Accuracy: 96.7%
+
+\- Fast training due to pre-trained model
+
+
 
 
 
 \## How to Run
 
-1\. Install dependencies
-
-2\. Run train\_mobilenet.py
-
-3\. Run predict.py
 
 
+bash
 
-\## Future Improvements
+py -3.10 train\_mobilenet.py
 
-\- Use larger dataset (Google Landmarks Dataset)
-
-\- Fine-tune pretrained model
-
-\- Deploy as web application
+py -3.10 predict.py
 
