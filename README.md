@@ -4,7 +4,7 @@
 
 \##  Overview
 
-This project implements a deep learning-based landmark recognition system using Transfer Learning (MobileNetV2).  
+This project implements a deep learning-based landmark recognition system using Transfer Learning (MobileNetV2).
 
 It classifies images of famous landmarks with high accuracy.
 
@@ -69,6 +69,20 @@ It classifies images of famous landmarks with high accuracy.
 \- Accuracy: 96.7%
 
 \- Fast training due to pre-trained model
+
+## 📸 Results
+
+
+
+\### Training Output
+
+!\[Training](outputs/training\_result.png)
+
+
+
+\### Prediction Output
+
+!\[Prediction](outputs/prediction\_output.png)
 
 
 
